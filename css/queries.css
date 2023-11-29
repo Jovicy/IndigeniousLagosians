@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .nav-toggler {
+        display: block;
+    }
+
+    .navbar {
+        min-height: 100px;
+    }
+
+    .navbar ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 60px);
+        left: 0;
+        top: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #E5E5E5;
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar ul li a {
+        padding: 25px;
+    }
+
+    .navbar ul.open {
+        max-height: 82vh;
+        overflow: visible;
+    }
+
+    /* header */
+    .header {
+        height: 100vh;
+    }
+
+    .header-briefing h1 {
+        font-size: 26px;
+    }
+
+    .header-btn {
+        font-size: 18px;
+    }
+
+    /* introduction */
+    .introduction-content img {
+        width: 300px;
+        border-radius: 300px;
+    }
+
+    /* teams */
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member {
+        width: 75%;
+    }
+
+    /* activities */
+    .activities-features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities-features div {
+        width: 75%;
+    }
+
+    /* contact main */
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .form-container {
+        flex-direction: column;
+    }
+
+    .contact-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-main {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Focus Page */
+    .plan-img {
+        height: auto;
+    }
+
+    .plan-img img {
+        width: 100%;
+        height: auto;
+    }
+}
