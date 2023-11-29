@@ -49,6 +49,10 @@
         height: 100vh;
     }
 
+    .header-content {
+        width: 100%;
+    }
+
     .header-briefing h1 {
         font-size: 26px;
     }
@@ -70,7 +74,7 @@
     }
 
     .member {
-        width: 75%;
+        width: 100%;
     }
 
     /* activities */
@@ -80,7 +84,7 @@
     }
 
     .activities-features div {
-        width: 75%;
+        width: 100%;
     }
 
     /* contact main */
