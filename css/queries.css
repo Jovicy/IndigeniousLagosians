@@ -177,6 +177,18 @@
         text-align: left;
     }
 
+    .career-main-cont {
+        flex-direction: column;
+    }
+
+    .career-info {
+        width: 100%;
+    }
+
+    .career-form {
+        width: 100%;
+    }
+
     /* support */
     .support-title h1 {
         font-size: 26px;

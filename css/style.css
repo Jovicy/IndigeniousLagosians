@@ -376,6 +376,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 50%;
 }
 
 .career-info-title h1 {
@@ -384,6 +385,63 @@ body {
 
 .career-info-desc li {
     list-style: square;
+}
+
+.career-form {
+    background-color: var(--orange);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.career-main-cont {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.career-main-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.career-form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.career-form-inputs label {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.career-form-inputs input {
+    font-family: inherit;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.career-form-inputs input::placeholder {
+    color: white;
+}
+
+.career-btn {
+    background-color: var(--blue);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
 }
 
 /* support */
