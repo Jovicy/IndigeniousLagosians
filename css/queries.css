@@ -177,6 +177,11 @@
         text-align: left;
     }
 
+    /* support */
+    .support-title h1 {
+        font-size: 26px;
+    }
+
     /* footer */
     .footer-main {
         flex-direction: column;

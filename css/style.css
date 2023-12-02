@@ -386,6 +386,38 @@ body {
     list-style: square;
 }
 
+/* support */
+.support-section {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.support-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.support-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.support-title h1 {
+    color: var(--orange);
+    font-size: 46px;
+    text-transform: capitalize;
+}
+
+.support-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* Forms */
 .contact {
     padding: 50px 0px;
