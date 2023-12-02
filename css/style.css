@@ -346,6 +346,46 @@ body {
     cursor: pointer;
 }
 
+/* Career Page */
+.career-section {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.career-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.career-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.career-title h1 {
+    color: var(--orange);
+    font-size: 46px;
+    text-transform: capitalize;
+}
+
+.career-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.career-info-title h1 {
+    color: var(--blue);
+}
+
+.career-info-desc li {
+    list-style: square;
+}
+
 /* Forms */
 .contact {
     padding: 50px 0px;

@@ -160,6 +160,23 @@
         width: 100%;
     }
 
+    /* career */
+    .career-title h1 {
+        font-size: 26px;
+    }
+
+    .career-info-title h1 {
+        font-size: 26px;
+    }
+
+    .career-info {
+        text-align: center;
+    }
+
+    .career-info-desc li {
+        text-align: left;
+    }
+
     /* footer */
     .footer-main {
         flex-direction: column;
