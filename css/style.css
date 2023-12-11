@@ -281,6 +281,8 @@ body {
     width: 30%;
     gap: 10px;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--blue);
 }
 
 .member-avatar img {
@@ -681,4 +683,30 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+/* Team Member */
+.team-persons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.team-persons-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.team-persons-title h1 {
+    color: var(--blue);
+    font-size: 46px;
+    text-transform: capitalize;
+}
+
+.team-persons-title p {
+    color: #FF5733;
+    font-weight: 700;
 }

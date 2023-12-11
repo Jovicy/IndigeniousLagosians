@@ -189,6 +189,11 @@
         width: 100%;
     }
 
+    /* individual-members */
+    .team-persons-title h1 {
+        font-size: 26px;
+    }
+
     /* support */
     .support-title h1 {
         font-size: 26px;
